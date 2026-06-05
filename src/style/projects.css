@@ -1,0 +1,57 @@
+.section-intro-project{
+    padding: 0px;
+}
+
+.intro-project{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--gradient-background);
+    color: var(--color-black);
+}
+
+.intro-project h1{
+    font-size: 3.5rem;
+}
+
+.intro-project a {
+    padding: 10px;
+    font-size: 1.5rem;
+    display: flex;
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+fieldset {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px 25px 10px;
+    margin: 5rem auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border: 0px;
+    border-radius: 15px;
+    width: 50%;
+
+    legend{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    input{
+        display: none;
+    }
+
+    label {
+        padding: 6px 12px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    input[type="radio"]:checked + label{
+        background: var(--gradient-background);
+    }
+}
+
+

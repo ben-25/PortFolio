@@ -1,0 +1,14 @@
+.about-text{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: 2rem;
+    background: var(--gradient-background);
+    color: var(--color-black);
+    text-align: center;
+    padding: 2rem;
+    padding-top: 10rem;
+}
