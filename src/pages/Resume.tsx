@@ -15,10 +15,10 @@ export function Resume(){
                 <section className="profil">
                     <h3>Profil</h3>
                     <p>
-                    Développeur web passionné, à la recherche d'une alternance pour préparer le titre de 
-                    Concepteur Développeur d'Applications (CDA). Maîtrise du développement Full Stack avec 
-                    React, JavaScript/Node.js, JAVA, SQL et Docker. Curieux, autonome et motivé à monter en 
-                    compétences dans un environnement professionnel.
+                        Développeur web passionné, à la recherche d'une alternance pour préparer le titre de 
+                        Concepteur Développeur d'Applications (CDA). Maîtrise du développement Full Stack avec 
+                        React, JavaScript/Node.js, JAVA, SQL et Docker. Curieux, autonome et motivé à monter en 
+                        compétences dans un environnement professionnel.
                     </p>
                 </section>
 
@@ -38,45 +38,45 @@ export function Resume(){
                     <h3>Projets Personnels</h3>
 
                     <article>
-                    <h4>Music Search App — React + iTunes API</h4>
-                    <p>
-                        Application de recherche d'albums musicaux utilisant l'API iTunes. Gestion des appels 
-                        API asynchrones, affichage dynamique des résultats et interface responsive en React.
-                    </p>
+                        <h4>Music Search App — React + iTunes API</h4>
+                        <p>
+                            Application de recherche d'albums musicaux utilisant l'API iTunes. Gestion des appels 
+                            API asynchrones, affichage dynamique des résultats et interface responsive en React.
+                        </p>
                     </article>
 
                     <article>
-                    <h4>Portfolio Personnel — React</h4>
-                    <p>
-                        Site vitrine développé en React/TypeScript présentant mes projets, compétences et parcours.
-                    </p>
+                        <h4>Portfolio Personnel — React</h4>
+                        <p>
+                            Site vitrine développé en React/TypeScript présentant mes projets, compétences et parcours.
+                        </p>
                     </article>
 
                     <article>
-                    <h4>Projet FullStack — Node.js / React</h4>
-                    <p>
-                        Projet full‑stack complet avec dashboard : création d’un dashboard moderne, mise en place 
-                        d’une API sécurisée, gestion d’une base de données et intégration d’une interface React.
-                    </p>
+                        <h4>Projet FullStack — Node.js / React</h4>
+                        <p>
+                            Projet full‑stack complet avec dashboard : création d’un dashboard moderne, mise en place 
+                            d’une API sécurisée, gestion d’une base de données et intégration d’une interface React.
+                        </p>
                     </article>
                 </section>
 
                 <section className="formation">
                     <h3>Formation</h3>
                     <ul>
-                    <li><strong>Acquis :</strong> Permis de conduire</li>
-                    <li><strong>Acquis :</strong> Bac Général — Option : Mathématiques, NSI, Sciences de l’ingénieur — Nancy, 2022</li>
-                    <li><strong>En cours :</strong> CDA (Concepteur Développeur d'Applications) — Titre RNCP Niveau 6 — Alternance recherchée — Lyon, 2026</li>
+                        <li><strong>Acquis :</strong> Permis de conduire</li>
+                        <li><strong>Acquis :</strong> Bac Général — Option : Mathématiques, NSI, Sciences de l’ingénieur — Nancy, 2022</li>
+                        <li><strong>En cours :</strong> CDA (Concepteur Développeur d'Applications) — Titre RNCP Niveau 6 — Alternance recherchée — Lyon, 2026</li>
                     </ul>
                 </section>
 
                 <section className="savoir-etre">
                     <h3>Savoir-être</h3>
                     <ul>
-                    <li>Autonomie et capacité à apprendre seul (projets personnels)</li>
-                    <li>Curiosité technique et veille technologique continue</li>
-                    <li>Rigueur dans l'organisation du code et la documentation</li>
-                    <li>Esprit d'équipe et bonne communication</li>
+                        <li>Autonomie et capacité à apprendre seul (projets personnels)</li>
+                        <li>Curiosité technique et veille technologique continue</li>
+                        <li>Rigueur dans l'organisation du code et la documentation</li>
+                        <li>Esprit d'équipe et bonne communication</li>
                     </ul>
                 </section>
 

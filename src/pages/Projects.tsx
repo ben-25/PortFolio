@@ -13,7 +13,7 @@ type repos = {
 
 export function Projects(){
     const [repos, setRepos] = useState<repos[]>([]);
-    const [filter, setFilter] = useState("all");
+    const [filter, setFilter] = useState<"all" | "perso" | "formation">("all");
 
     useEffect(() => {
         async function fetchRepos() {
@@ -39,11 +39,11 @@ export function Projects(){
                 </div>
                 <fieldset>
                     <legend>Filtrer les projets</legend>
-                    <input type="radio" id="all" value="all" name="select" defaultChecked onChange={(e) => setFilter(e.target.value)} />
+                    <input type="radio" id="all" value="all" name="select" defaultChecked onChange={() => setFilter("all")} />
                     <label htmlFor="all">Tous</label>
-                    <input type="radio" id="personnel" value="perso" name="select" onChange={(e) => setFilter(e.target.value)} />
+                    <input type="radio" id="personnel" value="perso" name="select" onChange={() => setFilter("perso")} />
                     <label htmlFor="personnel">Personnel</label>
-                    <input type="radio" id="formation" value="formation" name="select" onChange={(e) => setFilter(e.target.value)} />
+                    <input type="radio" id="formation" value="formation" name="select" onChange={() => setFilter("formation")} />
                     <label htmlFor="formation">Formation</label>
                 </fieldset>
             </section>
