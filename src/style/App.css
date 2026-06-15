@@ -7,6 +7,6 @@
 :root{
     --color-white:rgb(240, 240, 240);
     --color-black:rgb(35, 35, 35);
-    --color-blue:#667eea;
-    --gradient-background:radial-gradient( circle farthest-corner at 10% 20%,  rgba(189, 189, 189, 1) 0%, rgba(138, 255, 130, 1) 90% );
+    --color-blue:#6c5ce7;
+    --gradient-background:linear-gradient(305deg,rgba(108, 92, 231, 1) 0%, rgba(33, 33, 33, 1) 100%);
 }

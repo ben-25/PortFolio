@@ -7,10 +7,10 @@
 }
 
 .project-content{
-    color: var(--color-black);
+    color: var(--color-white);
     a{
         text-decoration: none;
-        color: var(--color-black);
+        color: var(--color-white);
         display: flex;
         flex-wrap: wrap;
     }

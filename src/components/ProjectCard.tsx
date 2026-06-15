@@ -18,7 +18,7 @@ export function ProjectCard({ name, description, topics, url, formation}: projec
             <div className={`project-content ${ada}`}>
                 <div className='project-header'>
                     <h3>{name}</h3>
-                    <a href={url} target="_blank">Lien github <img src={externe}></img></a>
+                    <a href={url} target="_blank">Lien github <img className='externe' src={externe}></img></a>
                 </div>
                 <p>{description}</p>
                 <div className="project-tags">

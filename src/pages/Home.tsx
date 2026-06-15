@@ -2,11 +2,15 @@ import '../style/home.css'
 import adashboard from '../assets/Adashboard.webp'
 import library_music from '../assets/Library_music.webp'
 import portfolio from '../assets/PortFolio.webp'
+import { HeroBackground } from '../components/HeroBackground'
 
 export function Home(){
     return(
         <>
             <section className="hero" id="accueil">
+                <div className="hero-background">
+                    <HeroBackground />
+                </div>
                 <div className="hero-content">
                     <h1>Benjamin Correa</h1>
                     <h2>Développeur Full Stack</h2>
@@ -69,7 +73,7 @@ export function Home(){
                 <h2>Vous cherchez un alternant ?</h2>
                 <p>Je suis disponible pour une alternance fin septembre 2026</p>
                 <a href="mailto:ben-2004@hotmail.fr" className="contact-button">Me contacter</a>
-                </section>
+            </section>
         </>
     )
 }

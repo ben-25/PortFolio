@@ -1,6 +1,7 @@
 .resume{
     background: var(--gradient-background);
     padding: 2rem;
+    color: var(--color-white);
 }
 
 .cv{

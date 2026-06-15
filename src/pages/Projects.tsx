@@ -2,6 +2,7 @@ import { ProjectCard } from '../components/ProjectCard.tsx'
 import '../style/projects.css'
 import { useEffect, useState } from 'react';
 import externe from '../assets/icons8-lien-externe.svg'
+import { ProjectBackground } from '../components/ProjectBackground.tsx'
 
 type repos = {
     id: number;
@@ -33,18 +34,21 @@ export function Projects(){
     return(
         <>
             <section className='section-intro-project'>
+                <div className="project-background">
+                    <ProjectBackground />
+                </div>
                 <div className='intro-project'>
                     <h1>Mes projets</h1>
-                    <a href="https://github.com/ben-25" target="_blank">Github personnel <img src={externe} alt="lien externe"/></a>
+                    <a href="https://github.com/ben-25" target="_blank">Github personnel <img className='externe' src={externe} alt="lien externe"/></a>
                 </div>
                 <fieldset>
                     <legend>Filtrer les projets</legend>
                     <input type="radio" id="all" value="all" name="select" defaultChecked onChange={() => setFilter("all")} />
-                    <label htmlFor="all">Tous</label>
+                    <label htmlFor="all" className={filter === "all" ? "active" : ""}>Tous</label>
                     <input type="radio" id="personnel" value="perso" name="select" onChange={() => setFilter("perso")} />
-                    <label htmlFor="personnel">Personnel</label>
+                    <label htmlFor="personnel" className={filter === "perso" ? "active" : ""}>Personnel</label>
                     <input type="radio" id="formation" value="formation" name="select" onChange={() => setFilter("formation")} />
-                    <label htmlFor="formation">Formation</label>
+                    <label htmlFor="formation" className={filter === "formation" ? "active" : ""}>Formation</label>
                 </fieldset>
             </section>
             <section className='projects-all'>
