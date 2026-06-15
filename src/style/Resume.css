@@ -52,3 +52,14 @@ li{
     text-decoration: none;
     font-weight: 600;
 }
+
+@media (max-width: 600px){
+    .resume{
+        padding: 0.5rem;
+    }
+    .cv{
+        margin: 1rem;
+        margin-top: 5rem;
+        padding: 1rem;
+    }
+}

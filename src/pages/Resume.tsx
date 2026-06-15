@@ -8,7 +8,7 @@ export function Resume(){
             <section className="cv">
                 <section className='intro'>
                     <h1>Benjamin Correa</h1>
-                    <h2>Développeur Full Stack — Recherche alternance CDA (Niveau 6 RNCP)</h2>
+                    <h2>Développeur Full Stack - Recherche alternance CDA (Niveau 6 RNCP)</h2>
                     <p>Lyon • <a href="mailto:ben-2004@hotmail.fr">ben-2004@hotmail.fr <img src={externe} alt="" /></a> • 06 48 32 48 96 • <a href="https://github.com/ben-25" target="_blank">github.com/ben-25 <img src={externe} alt="" /></a></p>
                 </section>
 
