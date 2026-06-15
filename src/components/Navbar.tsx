@@ -6,8 +6,8 @@ export function Navbar(){
     const [open, setOpen] = useState(false)
 
     return (
-        <nav>
-            <a href="/" className="logo">Benjamin Correa</a>
+        <nav id='navBar'>
+            <a href="/" className="logo" id='logo'>Benjamin Correa</a>
 
             <button className={`burger ${open ? "active" : ""}`} onClick={() => setOpen(!open)}>
                 <span></span>
@@ -18,8 +18,8 @@ export function Navbar(){
             <ul className={`nav-links ${open ? "open" : ""}`}>
                 <li><a href="/">Accueil</a></li>
                 <li><a href="/projets">Projets</a></li>
-                <li><a href="/resume">Resume</a></li>
-                <li><a href="/about">About Me</a></li>
+                <li><a href="/resume">CV</a></li>
+                <li><a href="/about">À propos</a></li>
             </ul>
         </nav>
     )

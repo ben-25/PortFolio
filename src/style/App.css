@@ -8,5 +8,5 @@
     --color-white:rgb(240, 240, 240);
     --color-black:rgb(35, 35, 35);
     --color-blue:#667eea;
-    --gradient-background:radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,204,255,1) 0%, rgba(230,204,255,1) 90% );
+    --gradient-background:radial-gradient( circle farthest-corner at 10% 20%,  rgba(189, 189, 189, 1) 0%, rgba(138, 255, 130, 1) 90% );
 }
