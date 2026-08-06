@@ -1,6 +1,5 @@
 import "../style/Resume.css";
 import externe from "../assets/icons8-lien-externe.svg";
-import CV from "../../public/CV_Benjamin_Correa.pdf";
 
 export function Resume() {
   return (
@@ -138,7 +137,7 @@ export function Resume() {
         </section>
       </div>
       <div className="resume-footer">
-        <a href={CV} download className="btn-download">
+        <a href="/CV_Benjamin_Correa.pdf" download="CV_Benjamin_Correa.pdf" className="btn-download">
           Telecharger mon CV
         </a>
       </div>
