@@ -1,6 +1,6 @@
 import "../style/Resume.css";
 import externe from "../assets/icons8-lien-externe.svg";
-import CV from "../../dist/CV_Benjamin_Correa.pdf";
+import CV from "../../public/CV_Benjamin_Correa.pdf";
 
 export function Resume() {
   return (
